@@ -1,0 +1,29 @@
+.barra {
+    width: 90%;
+    margin: auto!important;
+    padding: 5px;
+}
+.icono {
+    color: aliceblue;
+    margin: auto!important;
+}
+
+.ContenedorMain{
+    max-width: 980px;
+    max-height: 800px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.contenido {
+    margin: auto;
+    padding-top: 40px;
+    background: url(../images/enera_logo.png) no-repeat fixed center ;
+    height: 800px;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+}
+
+/*.menu {position: fixed; width:100%; padding: 5px;}*/

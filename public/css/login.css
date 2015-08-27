@@ -1,0 +1,8 @@
+.contenedorLogin {width: 600px;
+    margin:100px auto;
+    display: block;
+    box-sizing: border-box;
+    position: relative; overflow: hidden ;
+}
+
+.logo{width: 300px; overflow: hidden;}
