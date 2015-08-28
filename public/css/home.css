@@ -5,7 +5,10 @@
 }
 .icono {
     color: aliceblue;
-    margin: auto!important;
+    /*margin: auto!important;*/
+}
+.chico{
+    padding: 5px!important;
 }
 
 .ContenedorMain{

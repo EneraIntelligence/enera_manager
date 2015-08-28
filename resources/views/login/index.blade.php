@@ -12,6 +12,7 @@
             @if(Session::has('error'))
                 <span style="color:red;">{{ Session::get('error') }}</span>
             @endif
+
             {!! Form::open(['route'=>'auth.login']) !!}
             <div class="ui form">
                 <div class="field">

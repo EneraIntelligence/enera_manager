@@ -12,6 +12,7 @@
 */
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/', ['as' => 'home', 'uses' => 'DashboardController@index']);
+//    Route::get('/estado', ['as' => 'Es', 'uses' => 'InspectorController@index']);
 
     Route::match(['get', 'post'], 'logout', ['as' => 'auth.logout', 'uses' => 'AuthController@logout']);
 });
@@ -25,7 +26,12 @@ Route::get('/test', function () {
     return view('dashboard.index');
 });
 
-
+Route::get('/inspector', function () {
+    return view('inspector.index');
+});
+Route::get('/about', function () {
+    return view('inspector.index');
+});
 
 
 
